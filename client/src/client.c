@@ -95,7 +95,7 @@ t_log* iniciar_logger(void)
 
 t_config* iniciar_config(void)
 {
-	t_config* config = config_create("cliente.config");
+	t_config* config = config_create("../cliente.config");
 
 	return config;
 }
